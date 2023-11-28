@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: cornsilk;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+button{
+    padding: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-style: oblique;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.button{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    gap: 50px;
+}
+#book-form{
+    display: none;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+form{
+    position: relative;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid rgba(76, 74, 74, 0.3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#books-container{
+    position: absolute;
+    background-color: aqua;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    margin-left: 900px;
+}
